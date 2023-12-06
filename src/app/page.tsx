@@ -1,10 +1,13 @@
 import ExcalidrawBoard from "./_components/excalidraw";
+import { Room } from "./_components/room";
 
 export default async function Home() {
 
   return (
     <main>
-      <ExcalidrawBoard />
+      <Room>
+        <ExcalidrawBoard />
+      </Room>
     </main>
   );
 }
